@@ -10,7 +10,7 @@ Esse repositório serve para a entrega de atividades da matéria de IoT.
 
 ## Enunciado: Ligar 2 LED com um botão!
 
-O projeto vai utilizar um botão como entrada para ligar um LED e depois de apertar mais 1 vez, ele acende o outro LED como saída. A seguinte ordem é como ele deve funcionar no Arduíno.
+O projeto vai utilizar um botão como entrada para ligar um LED e depois de apertar mais 1 vez, ele acende o outro LED como saída (ele tem um contador chamado "i" para ser possível esse esquema). A seguinte ordem é como ele deve funcionar no Arduíno.
 
 1º aperto: acende o LED 1.
 
@@ -20,8 +20,8 @@ O projeto vai utilizar um botão como entrada para ligar um LED e depois de aper
 
 4º aperto: acende novamente o LED 1, reiniciando o ciclo.
 
-- O Arduino lê o estado do sensor PIR pelo **pino 7**
-- Acende o LED pelo **pino 6*
+- O Arduino lê o estado do botão pelo **pino 7**
+- Acende os LEDs pelo **pino 10 e 11*
 
 ## Materiais necessários
 
