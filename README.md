@@ -6,11 +6,15 @@ Docente: Amanda Paul Dull
 
 Esse repositório serve para a entrega de atividades da matéria de IoT.
 
-[![Simular no Tinkercad](https://img.shields.io/badge/Simular%20no-Tinkercad-orange?style=for-the-badge&logo=autodesk)](https://www.tinkercad.com/things/0PernMgBhHK-atividade-sensor-pir/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fall)
+[![Simular no Tinkercad](https://img.shields.io/badge/Simular%20no-Tinkercad-orange?style=for-the-badge&logo=autodesk)](https://www.tinkercad.com/things/1X1FBljbsex-atividade-2-leds/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard)
 
-## Enunciado: Ligar LED com o sensor PIR!
+## Enunciado: Ligar 2 LED com um botão!
 
 O projeto vai utilizar um sensor PIR como entrada para ligar um LED como saída. Ao mexer o sensor PIR, o Arduino leva sinas para o LED acender enquanto o sensor detecta movimento.
+1º aperto: acende o LED 1.
+2º aperto: apaga o LED 1 e acende o LED 2.
+3º aperto: apaga o LED 2.
+4º aperto: acende novamente o LED 1, reiniciando o ciclo.
 
 - O Arduino lê o estado do sensor PIR pelo **pino 7**
 - Acende o LED pelo **pino 6*
